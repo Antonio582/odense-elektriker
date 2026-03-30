@@ -49,7 +49,7 @@ export default function EltjekContent() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <p className="text-sm text-gray-500 mb-4">Af <strong>Odense Elektriker Team</strong> · Opdateret marts 2026</p>
+            <p className="text-sm text-gray-500 mb-4">Af <strong>Fyn El-Service Team</strong> · Opdateret marts 2026</p>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
               Eltjek &{' '}
               <span className="gradient-text">Sikringsservice</span>
@@ -199,7 +199,7 @@ export default function EltjekContent() {
                 Dernæst foretager vi en række elektriske målinger med professionelt måleudstyr. Vi tester isolationsmodstanden i kablerne for at sikre, at der ikke er skjulte fejl. Vi kontrollerer at alle fejlstrømsafbrydere (RCD/HPFI) udløser korrekt ved fejlstrøm — dette er din vigtigste beskyttelse mod elektrisk stød. Vi måler jordforbindelsens kvalitet og verificerer, at alle kredsløb er korrekt dimensioneret i forhold til belastningen.
               </p>
               <p>
-                Hos Odense Elektriker bruger vi de nyeste testmetoder og kalibreret udstyr til alle målinger. Vores <Link href="/el-installation" className="text-accent hover:underline">el-installationsservice</Link> bygger på samme grundighed. Vi har udført over 2.500 eltjek i Odense-området og kender de typiske udfordringer i boliger fra alle epoker — fra murermestervillaer fra 1930&apos;erne til nybyggeri.
+                Hos Fyn El-Service bruger vi de nyeste testmetoder og kalibreret udstyr til alle målinger. Vores <Link href="/el-installation" className="text-accent hover:underline">el-installationsservice</Link> bygger på samme grundighed. Vi har udført over 2.500 eltjek i Odense-området og kender de typiske udfordringer i boliger fra alle epoker — fra murermestervillaer fra 1930&apos;erne til nybyggeri.
               </p>
               <p>
                 Har du behov for akut hjælp til el-problemer, tilbyder vi også <Link href="/akut" className="text-accent hover:underline">akut elektriker-service</Link> med hurtig udrykning til hele Odense.

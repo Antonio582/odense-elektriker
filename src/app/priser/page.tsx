@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     url: 'https://odense-elektriker.dk/priser',
     type: 'website',
     locale: 'da_DK',
-    siteName: 'Odense Elektriker',
+    siteName: 'Fyn El-Service',
     images: [{ url: '/images/priser-tilbud.jpg', width: 1000, height: 500, alt: 'Gennemsigtige el-priser i Odense' }],
   },
 }

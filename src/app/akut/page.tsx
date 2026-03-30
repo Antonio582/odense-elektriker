@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     url: 'https://odense-elektriker.dk/akut',
     type: 'website',
     locale: 'da_DK',
-    siteName: 'Odense Elektriker',
+    siteName: 'Fyn El-Service',
     images: [{ url: '/images/akut-elektriker.jpg', width: 1000, height: 500, alt: 'Akut elektriker i Odense' }],
   },
 }

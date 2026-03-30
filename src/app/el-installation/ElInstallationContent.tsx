@@ -52,7 +52,7 @@ export default function ElInstallationContent() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <p className="text-sm text-gray-500 mb-4">Af <strong>Odense Elektriker Team</strong> · Opdateret marts 2026</p>
+            <p className="text-sm text-gray-500 mb-4">Af <strong>Fyn El-Service Team</strong> · Opdateret marts 2026</p>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
               Professionel{' '}
               <span className="gradient-text">el-installation</span>
@@ -159,7 +159,7 @@ export default function ElInstallationContent() {
             <h2 className="text-3xl font-bold mb-6">El-installation i Odense — hvad du bør vide</h2>
             <div className="text-gray-text leading-relaxed space-y-4">
               <p>
-                Når det kommer til el-installation i Odense, er kvalitet og sikkerhed altafgørende. Alt el-arbejde i Danmark skal udføres af en autoriseret el-installatør, og det er der god grund til. Forkert udført el-arbejde kan medføre alvorlige risici som brand og elektrisk stød. Hos Odense Elektriker tager vi sikkerhed seriøst og sikrer, at enhver installation overholder Stærkstrømsbekendtgørelsen og gældende sikkerhedsstandarder.
+                Når det kommer til el-installation i Odense, er kvalitet og sikkerhed altafgørende. Alt el-arbejde i Danmark skal udføres af en autoriseret el-installatør, og det er der god grund til. Forkert udført el-arbejde kan medføre alvorlige risici som brand og elektrisk stød. Hos Fyn El-Service tager vi sikkerhed seriøst og sikrer, at enhver installation overholder Stærkstrømsbekendtgørelsen og gældende sikkerhedsstandarder.
               </p>
               <p>
                 Mange boligejere i Odense bor i ejendomme med ældre el-installationer, der ikke lever op til moderne krav. Særligt boliger fra 1960&apos;erne og 1970&apos;erne har ofte installationer med aluminium-ledninger, forældede sikringer og manglende fejlstrømsafbrydere. En modernisering af el-anlægget øger både sikkerheden og komforten i dit hjem, og det kan også spare dig penge på el-regningen ved at optimere installationen.

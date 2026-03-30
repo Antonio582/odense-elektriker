@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     url: 'https://odense-elektriker.dk/el-installation',
     type: 'website',
     locale: 'da_DK',
-    siteName: 'Odense Elektriker',
+    siteName: 'Fyn El-Service',
     images: [{ url: '/images/el-installation-stikkontakt.jpg', width: 600, height: 400, alt: 'El-installation i Odense' }],
   },
 }

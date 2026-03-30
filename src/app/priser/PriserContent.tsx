@@ -54,7 +54,7 @@ export default function PriserContent() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <p className="text-sm text-gray-500 mb-4">Af <strong>Odense Elektriker Team</strong> · Opdateret marts 2026</p>
+            <p className="text-sm text-gray-500 mb-4">Af <strong>Fyn El-Service Team</strong> · Opdateret marts 2026</p>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
               Gennemsigtige{' '}
               <span className="gradient-text">priser</span>

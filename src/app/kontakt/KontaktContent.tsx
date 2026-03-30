@@ -75,7 +75,7 @@ export default function KontaktContent() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <p className="text-sm text-gray-500 mb-4">Af <strong>Odense Elektriker Team</strong> · Opdateret marts 2026</p>
+            <p className="text-sm text-gray-500 mb-4">Af <strong>Fyn El-Service Team</strong> · Opdateret marts 2026</p>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
               <span className="gradient-text">Kontakt</span> os
             </h1>
@@ -96,7 +96,7 @@ export default function KontaktContent() {
             <div className="relative rounded-2xl overflow-hidden">
               <Image
                 src="/images/kontakt-team.jpg"
-                alt="Odense Elektriker-teamet klar til at hjælpe med alle el-opgaver"
+                alt="Fyn El-Service-teamet klar til at hjælpe med alle el-opgaver"
                 width={600}
                 height={400}
                 className="w-full h-auto object-cover rounded-2xl"
@@ -106,7 +106,7 @@ export default function KontaktContent() {
             <div className="relative rounded-2xl overflow-hidden">
               <Image
                 src="/images/kontakt-service.jpg"
-                alt="Kundeservice hos Odense Elektriker — vi svarer inden for 2 timer"
+                alt="Kundeservice hos Fyn El-Service — vi svarer inden for 2 timer"
                 width={600}
                 height={400}
                 className="w-full h-auto object-cover rounded-2xl"
@@ -310,7 +310,7 @@ export default function KontaktContent() {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
                     </svg>
                   </div>
-                  <p className="text-white font-semibold">Odense Elektriker</p>
+                  <p className="text-white font-semibold">Fyn El-Service</p>
                   <p className="text-gray-text text-sm">{ADDRESS.street}, {ADDRESS.zip} {ADDRESS.city}</p>
                 </div>
               </div>
@@ -328,7 +328,7 @@ export default function KontaktContent() {
             <h2 className="text-3xl font-bold mb-6">Kontakt din lokale elektriker i Odense</h2>
             <div className="text-gray-text leading-relaxed space-y-4">
               <p>
-                Hos Odense Elektriker sætter vi en ære i at være tilgængelige og nemme at komme i kontakt med. Uanset om du har et simpelt spørgsmål om el-installation, behøver et tilbud på en ny <Link href="/ladestandere" className="text-accent hover:underline">ladestander</Link>, eller har brug for <Link href="/akut" className="text-accent hover:underline">akut hjælp</Link> midt om natten — vi er her for dig.
+                Hos Fyn El-Service sætter vi en ære i at være tilgængelige og nemme at komme i kontakt med. Uanset om du har et simpelt spørgsmål om el-installation, behøver et tilbud på en ny <Link href="/ladestandere" className="text-accent hover:underline">ladestander</Link>, eller har brug for <Link href="/akut" className="text-accent hover:underline">akut hjælp</Link> midt om natten — vi er her for dig.
               </p>
               <p>
                 Vi dækker hele Odense kommune og omegn, herunder {SERVICE_AREAS.join(', ')} og resten af Fyn. Inden for Odense kommune beregner vi intet kørselstillæg, og du kan altid forvente gennemsigtige <Link href="/priser" className="text-accent hover:underline">priser</Link> uden overraskelser.
@@ -362,10 +362,10 @@ export default function KontaktContent() {
       <section className="py-20 bg-dark-light">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
-            <h2 className="text-3xl font-bold mb-6">Hvorfor vælge Odense Elektriker?</h2>
+            <h2 className="text-3xl font-bold mb-6">Hvorfor vælge Fyn El-Service?</h2>
             <div className="text-gray-text leading-relaxed space-y-4">
               <p>
-                Når du vælger en elektriker i Odense, er det vigtigt at vælge en der er autoriseret, erfaren og pålidelig. Hos Odense Elektriker opfylder vi alle tre kriterier. Vi er fuldt autoriserede el-installatører med alle nødvendige certificeringer, og vi har over 30 års samlet erfaring i teamet. Vi har hjulpet mere end 2.500 kunder i Odense-området med alt fra simple reparationer til komplekse installationsprojekter.
+                Når du vælger en elektriker i Odense, er det vigtigt at vælge en der er autoriseret, erfaren og pålidelig. Hos Fyn El-Service opfylder vi alle tre kriterier. Vi er fuldt autoriserede el-installatører med alle nødvendige certificeringer, og vi har over 30 års samlet erfaring i teamet. Vi har hjulpet mere end 2.500 kunder i Odense-området med alt fra simple reparationer til komplekse installationsprojekter.
               </p>
               <p>
                 Vores kunder sætter pris på vores ærlighed og gennemsigtighed. Vi giver altid et detaljeret tilbud inden vi starter, og vi holder os til den aftalte pris. Ingen skjulte gebyrer, ingen overraskelser. Vi overholder altid aftalte tider og efterlader arbejdspladsen pæn og ryddelig. Det er disse simple principper der har gjort os til en af Odenses mest anbefalede elektrikere med en kundetilfredshed på 98 procent.

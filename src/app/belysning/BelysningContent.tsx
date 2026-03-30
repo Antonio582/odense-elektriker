@@ -66,7 +66,7 @@ export default function BelysningContent() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <p className="text-sm text-gray-500 mb-4">Af <strong>Odense Elektriker Team</strong> · Opdateret marts 2026</p>
+            <p className="text-sm text-gray-500 mb-4">Af <strong>Fyn El-Service Team</strong> · Opdateret marts 2026</p>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
               Professionel{' '}
               <span className="gradient-text">belysning</span>
@@ -182,7 +182,7 @@ export default function BelysningContent() {
             <h2 className="text-3xl font-bold mb-6">Belysningsinstallation i Odense — vores tilgang</h2>
             <div className="text-gray-text leading-relaxed space-y-4">
               <p>
-                Hos Odense Elektriker tilgår vi belysning som et fagområde der kræver mere end bare at sætte en lampe op. Vi starter med at forstå dine behov — hvordan bruger du rummet, hvilken stemning ønsker du, og hvad er dit budget? Ud fra det designer vi en belysningsplan der optimerer lysforholdene og minimerer energiforbruget.
+                Hos Fyn El-Service tilgår vi belysning som et fagområde der kræver mere end bare at sætte en lampe op. Vi starter med at forstå dine behov — hvordan bruger du rummet, hvilken stemning ønsker du, og hvad er dit budget? Ud fra det designer vi en belysningsplan der optimerer lysforholdene og minimerer energiforbruget.
               </p>
               <p>
                 Vi arbejder med alle typer belysningsteknologi fra førende producenter. Vores elektrikere er uddannet i de nyeste installationsteknikker og holder sig opdateret med trends inden for belysningsdesign. Vi installerer alt fra simple stikkontaktløsninger til avancerede DALI-styrede systemer i erhvervsejendomme.

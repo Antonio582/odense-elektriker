@@ -58,7 +58,7 @@ export default function LadestandarderContent() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <p className="text-sm text-gray-500 mb-4">Af <strong>Odense Elektriker Team</strong> · Opdateret marts 2026</p>
+            <p className="text-sm text-gray-500 mb-4">Af <strong>Fyn El-Service Team</strong> · Opdateret marts 2026</p>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
               <span className="gradient-text">Ladestandere</span>
               <br />til elbiler i Odense
@@ -180,7 +180,7 @@ export default function LadestandarderContent() {
                 Salget af elbiler i Danmark er eksploderet de seneste år, og med det er behovet for private ladestandere vokset tilsvarende. Som elbilsejer i Odense er en hjemmeladestander den mest bekvemme og økonomiske måde at holde din bil opladet. Du slipper for at planlægge ture til offentlige ladestationer, og du udnytter billigere strøm i nattetimerne.
               </p>
               <p>
-                Installation af en ladestander kræver en autoriseret elektriker, da det involverer højspænding og dedikerede kredsløb. En forkert installation kan medføre brandfare eller beskadigelse af din bil. Hos Odense Elektriker har vi installeret over 500 ladestandere i Odense og på Fyn, og vi kender de lokale udfordringer — fra ældre eltavler i {SERVICE_AREAS[0]} til nye byggerier i {SERVICE_AREAS[2]}.
+                Installation af en ladestander kræver en autoriseret elektriker, da det involverer højspænding og dedikerede kredsløb. En forkert installation kan medføre brandfare eller beskadigelse af din bil. Hos Fyn El-Service har vi installeret over 500 ladestandere i Odense og på Fyn, og vi kender de lokale udfordringer — fra ældre eltavler i {SERVICE_AREAS[0]} til nye byggerier i {SERVICE_AREAS[2]}.
               </p>
               <p>
                 Inden installationen anbefaler vi et <Link href="/eltjek" className="text-accent hover:underline">eltjek</Link> for at vurdere din installations kapacitet. Mange ældre boliger har hovedsikringer på 25A eller 35A, hvilket kan kræve opgradering til 50A eller 63A for at håndtere en 11 kW ladestander sikkert. Vi inkluderer altid denne vurdering i vores besigtigelse.

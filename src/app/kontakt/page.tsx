@@ -19,8 +19,8 @@ export const metadata: Metadata = {
     url: 'https://odense-elektriker.dk/kontakt',
     type: 'website',
     locale: 'da_DK',
-    siteName: 'Odense Elektriker',
-    images: [{ url: '/images/kontakt-team.jpg', width: 600, height: 400, alt: 'Kontakt Odense Elektriker' }],
+    siteName: 'Fyn El-Service',
+    images: [{ url: '/images/kontakt-team.jpg', width: 600, height: 400, alt: 'Kontakt Fyn El-Service' }],
   },
 }
 

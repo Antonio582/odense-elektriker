@@ -1,4 +1,5 @@
-export const SITE_NAME = 'Odense Elektriker'
+export const SITE_NAME = 'Fyn El-Service'
+export const COMPANY_NAME = 'Fyn El-Service'
 export const SITE_URL = 'https://odense-elektriker.dk'
 export const PHONE = ''
 export const PHONE_LINK = '/kontakt'

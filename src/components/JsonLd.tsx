@@ -73,12 +73,12 @@ export default function JsonLd({ page, breadcrumbItems, faqItems }: JsonLdProps)
         dateModified: '2026-03-27',
         author: {
           '@type': 'Person',
-          name: 'Odense Elektriker Team',
+          name: 'Fyn El-Service Team',
           url: SITE_URL,
         },
         publisher: {
           '@type': 'Organization',
-          name: 'Odense Elektriker',
+          name: 'Fyn El-Service',
           url: SITE_URL,
         },
         mainEntityOfPage: {

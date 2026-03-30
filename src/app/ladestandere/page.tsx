@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     url: 'https://odense-elektriker.dk/ladestandere',
     type: 'website',
     locale: 'da_DK',
-    siteName: 'Odense Elektriker',
+    siteName: 'Fyn El-Service',
     images: [{ url: '/images/ladestander-elbil.jpg', width: 600, height: 400, alt: 'Ladestander-installation i Odense' }],
   },
 }

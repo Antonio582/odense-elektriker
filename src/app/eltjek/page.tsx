@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     url: 'https://odense-elektriker.dk/eltjek',
     type: 'website',
     locale: 'da_DK',
-    siteName: 'Odense Elektriker',
+    siteName: 'Fyn El-Service',
     images: [{ url: '/images/eltjek-inspektion.jpg', width: 600, height: 400, alt: 'Eltjek og sikringsservice i Odense' }],
   },
 }

@@ -2,8 +2,8 @@ import type { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Odense Elektriker — Autoriseret El-installatør',
-    short_name: 'Odense Elektriker',
+    name: 'Fyn El-Service — Autoriseret El-installatør',
+    short_name: 'Fyn El-Service',
     description: 'Din autoriserede elektriker i Odense. El-installation, eltjek, belysning, ladestandere og akut el-service.',
     start_url: '/',
     display: 'standalone',

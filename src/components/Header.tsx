@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
 import { NAV_LINKS } from '@/lib/constants'
@@ -16,13 +17,9 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 rounded-lg bg-accent flex items-center justify-center">
-              <svg className="w-6 h-6 text-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
-              </svg>
-            </div>
+            <Image src="/logo.png" alt="Fyn El-Service" width={40} height={40} className="rounded-lg" />
             <span className="text-lg font-bold text-white group-hover:text-accent transition-colors">
-              Odense <span className="text-accent">Elektriker</span>
+              Fyn <span className="text-accent">El-Service</span>
             </span>
           </Link>
 

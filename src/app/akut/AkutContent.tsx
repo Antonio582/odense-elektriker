@@ -46,7 +46,7 @@ export default function AkutContent() {
             transition={{ duration: 0.7 }}
             className="text-center"
           >
-            <p className="text-sm text-gray-500 mb-4">Af <strong>Odense Elektriker Team</strong> · Opdateret marts 2026</p>
+            <p className="text-sm text-gray-500 mb-4">Af <strong>Fyn El-Service Team</strong> · Opdateret marts 2026</p>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
               Akut{' '}
               <span className="gradient-text">elektriker</span>
@@ -164,7 +164,7 @@ export default function AkutContent() {
             <h2 className="text-3xl font-bold mb-6">Akut el-service i Odense — din sikkerhed først</h2>
             <div className="text-gray-text leading-relaxed space-y-4">
               <p>
-                El-problemer kan opstå når som helst og uden varsel. En pludselig strømafbrydelse en kold vinteraften, gnister fra eltavlen midt om natten, eller en vandskade der truer el-installationen — disse situationer kræver øjeblikkelig professionel hjælp. Hos Odense Elektriker er vi klar 24 timer i døgnet, 7 dage om ugen, året rundt.
+                El-problemer kan opstå når som helst og uden varsel. En pludselig strømafbrydelse en kold vinteraften, gnister fra eltavlen midt om natten, eller en vandskade der truer el-installationen — disse situationer kræver øjeblikkelig professionel hjælp. Hos Fyn El-Service er vi klar 24 timer i døgnet, 7 dage om ugen, året rundt.
               </p>
               <p>
                 Vores akut-team består af erfarne, autoriserede elektrikere med fuldt udstyrede servicebiler. Vi medbringer de mest almindelige reservedele og materialer, så vi kan løse de fleste problemer ved første besøg. Vores gennemsnitlige responstid i Odense by er under 45 minutter, og vi dækker hele området fra {SERVICE_AREAS[0]} til {SERVICE_AREAS[5]}.

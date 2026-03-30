@@ -15,8 +15,8 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL('https://odense-elektriker.dk'),
   title: {
-    default: 'Elektriker Odense | Autoriseret El-installatør | Odense Elektriker',
-    template: '%s | Odense Elektriker',
+    default: 'Elektriker Odense | Autoriseret El-installatør | Fyn El-Service',
+    template: '%s | Fyn El-Service',
   },
   description: 'Din autoriserede elektriker i Odense. Vi tilbyder el-installation, eltjek, belysning, ladestandere og akut el-service. Kontakt os for et gratis tilbud!',
   keywords: ['elektriker odense', 'el-installatør odense', 'autoriseret elektriker odense', 'akut elektriker odense', 'elektriker fyn'],
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'da_DK',
     url: 'https://odense-elektriker.dk',
-    siteName: 'Odense Elektriker',
+    siteName: 'Fyn El-Service',
     title: 'Elektriker Odense | Autoriseret El-installatør',
     description: 'Din autoriserede elektriker i Odense. El-installation, eltjek, belysning, ladestandere og akut el-service. Gratis tilbud!',
     images: [{ url: '/images/hero-elektriker-odense.jpg', width: 1200, height: 600, alt: 'Autoriseret elektriker i Odense' }],

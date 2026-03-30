@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     url: 'https://odense-elektriker.dk/belysning',
     type: 'website',
     locale: 'da_DK',
-    siteName: 'Odense Elektriker',
+    siteName: 'Fyn El-Service',
     images: [{ url: '/images/belysning-indendors.jpg', width: 600, height: 400, alt: 'Professionel belysningsinstallation i Odense' }],
   },
 }

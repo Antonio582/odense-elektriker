@@ -228,7 +228,7 @@ export default function HomePage() {
           <ScrollReveal className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">Hvorfor vælge os som din elektriker i Odense?</h2>
             <p className="text-gray-text text-lg max-w-2xl mx-auto">
-              Vi kombinerer faglig ekspertise med personlig service. Når du vælger Odense Elektriker, får du en partner du kan stole på — fra det første opkald til den færdige opgave.
+              Vi kombinerer faglig ekspertise med personlig service. Når du vælger Fyn El-Service, får du en partner du kan stole på — fra det første opkald til den færdige opgave.
             </p>
           </ScrollReveal>
 
@@ -326,11 +326,11 @@ export default function HomePage() {
       <section className="py-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
-            <p className="text-sm text-gray-500 mb-4">Af <strong>Odense Elektriker Team</strong> · Opdateret marts 2026</p>
+            <p className="text-sm text-gray-500 mb-4">Af <strong>Fyn El-Service Team</strong> · Opdateret marts 2026</p>
             <h2 className="text-3xl font-bold mb-6">Din autoriserede elektriker i Odense — lokal, pålidelig og professionel</h2>
             <div className="text-gray-text leading-relaxed space-y-4">
               <p>
-                Odense Elektriker er din lokale partner når det handler om al el-arbejde i Odense og på Fyn. Vi er et team af autoriserede elektrikere med over 30 års samlet erfaring i branchen. Vi har udført mere end 2.500 projekter for private boligejere og erhvervskunder i hele Odense-området — fra lejligheder i Odense C og villaer i Bellinge til kontorer i Bolbro og produktionslokaler i Odense NV.
+                Fyn El-Service er din lokale partner når det handler om al el-arbejde i Odense og på Fyn. Vi er et team af autoriserede elektrikere med over 30 års samlet erfaring i branchen. Vi har udført mere end 2.500 projekter for private boligejere og erhvervskunder i hele Odense-området — fra lejligheder i Odense C og villaer i Bellinge til kontorer i Bolbro og produktionslokaler i Odense NV.
               </p>
               <p>
                 Som autoriseret el-installatør overholder vi altid Stærkstrømsbekendtgørelsen og gældende sikkerhedsstandarder. Alle vores elektrikere er uddannede fagfolk med de nødvendige certificeringer, og vi er dækket af el-installatøransvarsforsikring. Det betyder, at du kan være helt tryg når du vælger os til dit el-projekt — uanset om det drejer sig om en enkelt stikkontakt eller en komplet renovering af el-anlægget.
