@@ -3,7 +3,7 @@ import KontaktContent from './KontaktContent'
 
 export const metadata: Metadata = {
   title: 'Kontakt Elektriker Odense | Få Gratis Tilbud',
-  description: 'Kontakt din lokale elektriker i Odense. Gratis og uforpligtende tilbud på al el-arbejde. Ring, mail eller udfyld formularen — svar inden 2 timer!',
+  description: 'Kontakt din lokale elektriker i Odense. Gratis og uforpligtende tilbud på al el-arbejde. Mail eller udfyld formularen — svar inden 2 timer!',
   alternates: {
     canonical: 'https://odense-elektriker.dk/kontakt',
     languages: { 'da-DK': 'https://odense-elektriker.dk/kontakt' },

@@ -238,7 +238,7 @@ export default function EltjekContent() {
       </section>
 
       <FAQ items={faqItems} />
-      <CTABanner title="Bestil dit eltjek i dag" subtitle="Ring eller skriv til os for et uforpligtende tilbud på et professionelt eltjek af din bolig eller virksomhed i Odense." />
+      <CTABanner title="Bestil dit eltjek i dag" subtitle="Kontakt os for et uforpligtende tilbud på et professionelt eltjek af din bolig eller virksomhed i Odense." />
     </>
   )
 }

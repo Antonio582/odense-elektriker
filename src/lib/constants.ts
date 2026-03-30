@@ -1,7 +1,7 @@
 export const SITE_NAME = 'Odense Elektriker'
 export const SITE_URL = 'https://odense-elektriker.dk'
-export const PHONE = '65 12 34 56'
-export const PHONE_LINK = 'tel:+4565123456'
+export const PHONE = ''
+export const PHONE_LINK = '/kontakt'
 export const EMAIL = 'kontakt@odense-elektriker.dk'
 export const ADDRESS = {
   street: 'Vestergade 42',
@@ -31,7 +31,7 @@ export const LOCAL_BUSINESS_JSONLD = {
   '@type': 'Electrician',
   name: SITE_NAME,
   url: SITE_URL,
-  telephone: '+4565123456',
+  telephone: '',
   email: EMAIL,
   address: {
     '@type': 'PostalAddress',

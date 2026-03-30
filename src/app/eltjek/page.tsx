@@ -11,11 +11,11 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Eltjek Odense | Sikringsservice & El-gennemgang',
-    description: 'Professionelt eltjek i Odense fra 1.995 kr. Autoriseret elektriker gennemgår din el-installation. Ring for tilbud!',
+    description: 'Professionelt eltjek i Odense fra 1.995 kr. Autoriseret elektriker gennemgår din el-installation. Kontakt os for tilbud!',
   },
   openGraph: {
     title: 'Eltjek Odense | Sikringsservice & El-gennemgang',
-    description: 'Professionelt eltjek i Odense fra 1.995 kr. Autoriseret elektriker gennemgår din el-installation. Ring for tilbud!',
+    description: 'Professionelt eltjek i Odense fra 1.995 kr. Autoriseret elektriker gennemgår din el-installation. Kontakt os for tilbud!',
     url: 'https://odense-elektriker.dk/eltjek',
     type: 'website',
     locale: 'da_DK',

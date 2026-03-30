@@ -9,10 +9,10 @@ import CTABanner from '@/components/CTABanner'
 import ScrollReveal from '@/components/ScrollReveal'
 import JsonLd from '@/components/JsonLd'
 import FAQ from '@/components/FAQ'
-import { PHONE, PHONE_LINK, EMAIL, ADDRESS, SERVICE_AREAS } from '@/lib/constants'
+import { EMAIL, ADDRESS, SERVICE_AREAS } from '@/lib/constants'
 
 const contactMethods = [
-  { icon: '📞', title: 'Ring til os', value: PHONE, link: PHONE_LINK, desc: 'Mandag-fredag 07-17, eller 24/7 ved akut' },
+  { icon: '📧', title: 'Email', value: EMAIL, link: `mailto:${EMAIL}`, desc: 'Vi svarer inden for 2 timer i åbningstiden' },
   { icon: '✉️', title: 'Send en email', value: EMAIL, link: `mailto:${EMAIL}`, desc: 'Vi svarer inden for 2 timer i åbningstiden' },
   { icon: '📍', title: 'Besøg os', value: `${ADDRESS.street}, ${ADDRESS.zip} ${ADDRESS.city}`, link: '#map', desc: 'Mandag-fredag 08-16 (efter aftale)' },
 ]
@@ -21,7 +21,7 @@ const hours = [
   { day: 'Mandag - Fredag', time: '07:00 - 17:00', note: 'Normal åbningstid' },
   { day: 'Lørdag', time: '09:00 - 14:00', note: 'Begrænset service' },
   { day: 'Søndag & helligdage', time: 'Lukket', note: 'Kun akut service' },
-  { day: 'Akut 24/7', time: 'Altid åben', note: 'Ring døgnet rundt' },
+  { day: 'Akut 24/7', time: 'Altid åben', note: 'Kontakt os døgnet rundt' },
 ]
 
 const formFields = [
@@ -80,7 +80,7 @@ export default function KontaktContent() {
               <span className="gradient-text">Kontakt</span> os
             </h1>
             <p className="text-lg text-gray-text max-w-3xl leading-relaxed mb-4">
-              Har du brug for en elektriker i Odense? Vi er klar til at hjælpe. Uanset om du har et akut problem eller planlægger et større projekt, starter alt med en samtale. Ring, mail eller udfyld formularen herunder, og vi vender tilbage inden for 2 timer.
+              Har du brug for en elektriker i Odense? Vi er klar til at hjælpe. Uanset om du har et akut problem eller planlægger et større projekt, starter alt med en samtale. Mail eller udfyld formularen herunder, og vi vender tilbage inden for 2 timer.
             </p>
             <p className="text-gray-text max-w-3xl leading-relaxed">
               Som autoriseret el-installatør i Odense med over 30 års samlet erfaring tilbyder vi professionel el-service til både private og erhverv. Vi giver altid gratis og uforpligtende tilbud på alle typer el-arbejde — fra enkle stikkontakter til komplet renovering af el-anlæg. Vores team af erfarne elektrikere dækker hele Odense og omegn, herunder Odense C, Odense SØ, Bellinge, Dalum, Bolbro og Skt. Klemens, uden kørselstillæg inden for kommunen.
@@ -277,15 +277,12 @@ export default function KontaktContent() {
                   <p className="text-gray-text text-sm mb-4">
                     El-problemer der ikke kan vente? Vi er klar 24/7.
                   </p>
-                  <a
-                    href={PHONE_LINK}
+                  <Link
+                    href="/kontakt"
                     className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-dark font-bold rounded-xl glow-btn text-sm"
                   >
-                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                    </svg>
-                    Ring {PHONE}
-                  </a>
+                    Kontakt os nu
+                  </Link>
                 </div>
               </ScrollReveal>
             </div>
@@ -343,7 +340,7 @@ export default function KontaktContent() {
                 Vi har et tæt samarbejde med mange boligejere og ejerforeninger i Odense-området. Flere af vores kunder vender tilbage til os år efter år, fordi de ved at vi leverer kvalitetsarbejde til fair priser. Vi er stolte af vores kundetilfredshed på 98 procent og de mange anbefalinger vi modtager. Vores mål er at gøre el-arbejde trygt og problemfrit for dig — fra den første henvendelse til den færdige opgave.
               </p>
               <p>
-                Vi er tilgængelige i vores normale åbningstid mandag til fredag fra 07 til 17, og lørdag fra 09 til 14. Ved akutte el-problemer er vi klar 24 timer i døgnet, 7 dage om ugen. Du kan altid nå os på telefon {PHONE}, via email på {EMAIL}, eller ved at udfylde kontaktformularen ovenfor. Vi glæder os til at høre fra dig og hjælpe dig med dit el-projekt i Odense.
+                Vi er tilgængelige i vores normale åbningstid mandag til fredag fra 07 til 17, og lørdag fra 09 til 14. Ved akutte el-problemer er vi klar 24 timer i døgnet, 7 dage om ugen. Du kan altid nå os via email på {EMAIL}, eller ved at udfylde kontaktformularen ovenfor. Vi glæder os til at høre fra dig og hjælpe dig med dit el-projekt i Odense.
               </p>
               <p>
                 Vi udfører alle typer el-arbejde, fra <Link href="/eltjek" className="text-accent hover:underline">eltjek og sikringsservice</Link> til komplet <Link href="/el-installation" className="text-accent hover:underline">el-installation</Link> og professionel <Link href="/belysning" className="text-accent hover:underline">belysning</Link>. Alt udføres af autoriserede elektrikere med mange års erfaring i Odense-området.
@@ -351,7 +348,7 @@ export default function KontaktContent() {
 
               <h3 className="text-xl font-semibold text-white mt-8 mb-3">Sådan kommer du i gang</h3>
               <p>
-                Det er nemt at komme i gang med dit el-projekt. Ring til os på {PHONE} i åbningstiden, eller udfyld kontaktformularen herover — vi svarer inden for 2 timer. Du kan også sende en email til {EMAIL} med en beskrivelse af din opgave. Vi vurderer opgaven, aftaler en eventuel besigtigelse og sender dig et detaljeret tilbud med fast pris.
+                Det er nemt at komme i gang med dit el-projekt. Udfyld kontaktformularen herover — vi svarer inden for 2 timer. Du kan også sende en email til {EMAIL} med en beskrivelse af din opgave. Vi vurderer opgaven, aftaler en eventuel besigtigelse og sender dig et detaljeret tilbud med fast pris.
               </p>
               <p>
                 Vores elektrikere kører dagligt til kunder i Odense C, Odense SØ, Odense NV, Bellinge, Dalum, Bolbro og Skt. Klemens. Vi kender de lokale forhold og de typiske el-installationer i Odense-området. Som autoriseret el-installatør med over 30 års samlet erfaring i teamet, kan du stole på at vi leverer professionelt arbejde til konkurrencedygtige <Link href="/priser" className="text-accent hover:underline">priser</Link>. Vi er klar til at hjælpe dig — uanset om det er en lille reparation eller et større projekt.

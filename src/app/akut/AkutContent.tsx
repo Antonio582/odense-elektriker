@@ -8,7 +8,7 @@ import FAQ from '@/components/FAQ'
 import CTABanner from '@/components/CTABanner'
 import ScrollReveal from '@/components/ScrollReveal'
 import JsonLd from '@/components/JsonLd'
-import { PHONE, PHONE_LINK, SERVICE_AREAS } from '@/lib/constants'
+import { SERVICE_AREAS } from '@/lib/constants'
 
 const emergencies = [
   { title: 'Strømafbrydelse', desc: 'Pludselig strømsvigt i hele eller dele af boligen? Vi fejlfinder hurtigt og genopretter strømforsyningen. Det kan skyldes en udløst hovedsikring, defekt HPFI-relæ eller problemer med forsyningsnettet.', icon: '⚡' },
@@ -23,8 +23,8 @@ const faqItems = [
   { question: 'Hvad koster en akut elektriker i Odense?', answer: 'Akut udrykning koster et fast tillæg på 995 kr. ekskl. moms oven i vores normale timepris. I dagtimerne (07-17, hverdage) er timeprisen 495 kr., i aftentimerne (17-22) er den 695 kr., og om natten (22-07) samt weekender er den 895 kr. Alt udspecificeres inden arbejdet påbegyndes.' },
   { question: 'Hvor hurtigt kan I komme ved akut el-nødsituation?', answer: 'Vi er typisk fremme inden for 30-60 minutter i Odense by og 60-90 minutter i ydreområderne. Responstiden afhænger af den aktuelle belastning, men vi prioriterer altid akutte sikkerhedsproblemer og giver dig et præcist tidspunkt ved bestilling.' },
   { question: 'Hvad gør jeg mens jeg venter på elektrikeren?', answer: 'Ved strømafbrydelse: Tjek om naboerne også er ramt (kan være forsyningsfejl). Ved gnister/røg/brændt lugt: Sluk for hovedafbryderen i eltavlen og undgå at røre ved beskadigede komponenter. Ved vandskade: Sluk for strømmen og undgå våde områder. Forlad boligen hvis du føler dig utryg, og ring 112 ved akut fare.' },
-  { question: 'Kan I komme om natten og i weekenden?', answer: 'Ja, vores akut-service er tilgængelig 24 timer i døgnet, 7 dage om ugen, 365 dage om året. Inklusiv helligdage. Ring til os uanset tidspunkt — vi har altid en elektriker på vagt der er klar til at rykke ud.' },
-  { question: 'Hvornår bør jeg ringe til en akut elektriker?', answer: 'Ring ved: strømsvigt der ikke løses ved at nulstille sikringer, gnister eller røg fra el-installationen, brændt lugt fra stikkontakter eller eltavle, vandskade der har ramt el-installationen, og løse ledninger eller synlige kabelskader. Ved fare for brand ring altid 112 først.' },
+  { question: 'Kan I komme om natten og i weekenden?', answer: 'Ja, vores akut-service er tilgængelig 24 timer i døgnet, 7 dage om ugen, 365 dage om året. Inklusiv helligdage. Kontakt os uanset tidspunkt — vi har altid en elektriker på vagt der er klar til at rykke ud.' },
+  { question: 'Hvornår bør jeg kontakte en akut elektriker?', answer: 'Kontakt os ved: strømsvigt der ikke løses ved at nulstille sikringer, gnister eller røg fra el-installationen, brændt lugt fra stikkontakter eller eltavle, vandskade der har ramt el-installationen, og løse ledninger eller synlige kabelskader. Ved fare for brand ring altid 112 først.' },
 ]
 
 export default function AkutContent() {
@@ -57,17 +57,17 @@ export default function AkutContent() {
             </p>
 
             {/* Pulsating CTA */}
-            <motion.a
-              href={PHONE_LINK}
-              className="inline-flex items-center gap-3 px-10 py-5 bg-accent text-dark font-bold rounded-2xl text-xl pulse-glow"
+            <motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.98 }}
             >
-              <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-              </svg>
-              Ring NU — {PHONE}
-            </motion.a>
+              <Link
+                href="/kontakt"
+                className="inline-flex items-center gap-3 px-10 py-5 bg-accent text-dark font-bold rounded-2xl text-xl pulse-glow"
+              >
+                Kontakt os NU
+              </Link>
+            </motion.div>
 
             {/* Quick stats */}
             <div className="mt-12 flex flex-wrap items-center justify-center gap-8 text-gray-text text-sm">
@@ -217,7 +217,7 @@ export default function AkutContent() {
                 Sørg for at din eltavle er tidssvarende med moderne sikringsautomater og HPFI-relæer i alle grupper. Mange ældre boliger i Bolbro og Dalum har stadig de gamle patronsikringer fra 1960&apos;erne og 1970&apos;erne, som giver dårligere beskyttelse end moderne automatsikringer. En opgradering af eltavlen koster typisk 8.000-15.000 kr. og er en af de bedste investeringer du kan gøre i dit hjems sikkerhed.
               </p>
               <p>
-                Hvis du bor i en bolig med ældre el-installation og ønsker at være på den sikre side, kan du starte med et <Link href="/eltjek" className="text-accent hover:underline">komplet eltjek</Link> til 3.495 kr. Det giver dig et fuldt overblik over installationens tilstand og en prioriteret liste over eventuelle udbedringer. Ring til os på {PHONE} for at bestille — vi dækker hele Odense og Fyn med hurtig service og gennemsigtige <Link href="/priser" className="text-accent hover:underline">priser</Link>.
+                Hvis du bor i en bolig med ældre el-installation og ønsker at være på den sikre side, kan du starte med et <Link href="/eltjek" className="text-accent hover:underline">komplet eltjek</Link> til 3.495 kr. Det giver dig et fuldt overblik over installationens tilstand og en prioriteret liste over eventuelle udbedringer. <Link href="/kontakt" className="text-accent hover:underline">Kontakt os</Link> for at bestille — vi dækker hele Odense og Fyn med hurtig service og gennemsigtige <Link href="/priser" className="text-accent hover:underline">priser</Link>.
               </p>
             </div>
           </ScrollReveal>
@@ -229,24 +229,24 @@ export default function AkutContent() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <ScrollReveal>
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">Brug for akut hjælp nu?</h2>
-            <p className="text-gray-text text-lg mb-8">Vi er klar 24/7 — ring til os med det samme, og vi sender en elektriker afsted.</p>
-            <motion.a
-              href={PHONE_LINK}
-              className="inline-flex items-center gap-3 px-10 py-5 bg-accent text-dark font-bold rounded-2xl text-xl pulse-glow"
+            <p className="text-gray-text text-lg mb-8">Vi er klar 24/7 — kontakt os med det samme, og vi sender en elektriker afsted.</p>
+            <motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.98 }}
             >
-              <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-              </svg>
-              Ring {PHONE}
-            </motion.a>
+              <Link
+                href="/kontakt"
+                className="inline-flex items-center gap-3 px-10 py-5 bg-accent text-dark font-bold rounded-2xl text-xl pulse-glow"
+              >
+                Kontakt os nu
+              </Link>
+            </motion.div>
           </ScrollReveal>
         </div>
       </section>
 
       <FAQ items={faqItems} />
-      <CTABanner title="El-nødsituation?" subtitle="Vi er klar 24/7 med akut el-service i hele Odense-området. Ring nu, og vi er hos dig inden for 30-60 minutter." />
+      <CTABanner title="El-nødsituation?" subtitle="Vi er klar 24/7 med akut el-service i hele Odense-området. Kontakt os nu, og vi er hos dig inden for 30-60 minutter." />
     </>
   )
 }

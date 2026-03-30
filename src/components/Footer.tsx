@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { NAV_LINKS, PHONE, PHONE_LINK, EMAIL, ADDRESS, SERVICE_AREAS, SITE_NAME } from '@/lib/constants'
+import { NAV_LINKS, EMAIL, ADDRESS, SERVICE_AREAS, SITE_NAME } from '@/lib/constants'
 
 export default function Footer() {
   return (
@@ -50,12 +50,12 @@ export default function Footer() {
             <h3 className="font-semibold text-white mb-4">Kontakt</h3>
             <ul className="space-y-3">
               <li>
-                <a href={PHONE_LINK} className="flex items-center gap-2 text-gray-text text-sm hover:text-accent transition-colors">
+                <Link href="/kontakt" className="flex items-center gap-2 text-gray-text text-sm hover:text-accent transition-colors">
                   <svg className="w-4 h-4 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
-                  {PHONE}
-                </a>
+                  Kontakt os
+                </Link>
               </li>
               <li>
                 <a href={`mailto:${EMAIL}`} className="flex items-center gap-2 text-gray-text text-sm hover:text-accent transition-colors">

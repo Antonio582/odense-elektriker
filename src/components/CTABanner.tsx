@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { PHONE, PHONE_LINK } from '@/lib/constants'
+
 
 interface CTABannerProps {
   title?: string
@@ -31,20 +31,11 @@ export default function CTABanner({
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">{title}</h2>
             <p className="text-gray-text text-lg mb-8 max-w-2xl mx-auto">{subtitle}</p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <a
-                href={PHONE_LINK}
-                className="inline-flex items-center gap-2 px-8 py-4 bg-accent text-dark font-bold rounded-xl glow-btn text-lg"
-              >
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                </svg>
-                Ring {PHONE}
-              </a>
               <Link
                 href="/kontakt"
-                className="inline-flex items-center gap-2 px-8 py-4 border border-accent/50 text-accent font-semibold rounded-xl hover:bg-accent/10 transition-colors text-lg"
+                className="inline-flex items-center gap-2 px-8 py-4 bg-accent text-dark font-bold rounded-xl glow-btn text-lg"
               >
-                Få et tilbud
+                Få gratis tilbud
                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>

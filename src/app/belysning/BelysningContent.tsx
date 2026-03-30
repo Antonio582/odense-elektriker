@@ -227,7 +227,7 @@ export default function BelysningContent() {
       </section>
 
       <FAQ items={faqItems} />
-      <CTABanner title="Få professionel belysning" subtitle="Ring eller skriv til os for et uforpligtende tilbud på belysningsinstallation i Odense. Vi hjælper dig med at finde den perfekte løsning." />
+      <CTABanner title="Få professionel belysning" subtitle="Kontakt os for et uforpligtende tilbud på belysningsinstallation i Odense. Vi hjælper dig med at finde den perfekte løsning." />
     </>
   )
 }

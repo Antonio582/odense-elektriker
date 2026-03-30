@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     default: 'Elektriker Odense | Autoriseret El-installatør | Odense Elektriker',
     template: '%s | Odense Elektriker',
   },
-  description: 'Din autoriserede elektriker i Odense. Vi tilbyder el-installation, eltjek, belysning, ladestandere og akut el-service. Ring i dag for et gratis tilbud!',
+  description: 'Din autoriserede elektriker i Odense. Vi tilbyder el-installation, eltjek, belysning, ladestandere og akut el-service. Kontakt os for et gratis tilbud!',
   keywords: ['elektriker odense', 'el-installatør odense', 'autoriseret elektriker odense', 'akut elektriker odense', 'elektriker fyn'],
   alternates: {
     canonical: 'https://odense-elektriker.dk',
