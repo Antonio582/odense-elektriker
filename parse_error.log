@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/antonio/.openclaw/workspace/odense-elektriker/../parse_favicon.py", line 41, in <module>
+    sys.stdout.buffer.write(base64.b64decode(b64))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'dict'

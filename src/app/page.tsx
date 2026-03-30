@@ -178,8 +178,8 @@ export default function HomePage() {
           <ScrollReveal>
             <div className="relative rounded-2xl overflow-hidden">
               <Image
-                src="/images/hero-elektriker-odense.jpg"
-                alt="Autoriseret elektriker i Odense udfører professionelt el-arbejde i bolig"
+                src="/images/hero-elektriker-new.jpg"
+                alt="Autoriseret elektriker i Odense arbejder professionelt ved eltavle med sikkerhedsudstyr"
                 width={1200}
                 height={600}
                 className="w-full h-auto object-cover rounded-2xl"

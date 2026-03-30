@@ -60,3 +60,8 @@ body {
 .pulse-glow {
   animation: pulse-glow 2s ease-in-out infinite;
 }
+
+/* Global rounded corners on all images */
+img {
+  border-radius: 1rem;
+}
