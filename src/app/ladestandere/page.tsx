@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import LadestandarderContent from './LadestandarderContent'
 
 export const metadata: Metadata = {
-  title: 'Ladestandere Odense | Installation af Elbil-ladestander',
+  title: 'Ladestander Odense | Elbil-opladning',
   description: 'Installation af ladestandere til elbiler i Odense fra 4.995 kr. Vi hjælper med valg, tilskud og installation. Autoriseret elektriker — få tilbud!',
   alternates: {
     canonical: 'https://odense-elektriker.dk/ladestandere',
@@ -10,11 +10,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Ladestandere Odense | Installation af Elbil-ladestander',
+    title: 'Ladestander Odense | Elbil-opladning',
     description: 'Installation af ladestandere til elbiler i Odense fra 4.995 kr. Autoriseret elektriker — få tilbud i dag!',
   },
   openGraph: {
-    title: 'Ladestandere Odense | Installation af Elbil-ladestander',
+    title: 'Ladestander Odense | Elbil-opladning',
     description: 'Installation af ladestandere til elbiler i Odense fra 4.995 kr. Autoriseret elektriker — få tilbud i dag!',
     url: 'https://odense-elektriker.dk/ladestandere',
     type: 'website',

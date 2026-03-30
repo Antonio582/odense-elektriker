@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <rect width="200" height="60" rx="8" fill="#0a1628"/>
+  <path d="M30 10L22 35h8l-4 15L42 25h-8l4-15z" fill="#fbbf24"/>
+  <text x="54" y="30" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="14" fill="#ffffff">ODENSE</text>
+  <text x="54" y="46" font-family="Inter, system-ui, sans-serif" font-weight="400" font-size="11" fill="#94a3b8">ELEKTRIKER</text>
+</svg>

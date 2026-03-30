@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import ElInstallationContent from './ElInstallationContent'
 
 export const metadata: Metadata = {
-  title: 'El-installation Odense | Autoriseret El-installatør',
+  title: 'El-installation Odense | Autoriseret Elektriker',
   description: 'Professionel el-installation i Odense. Nye installationer, renovering og udvidelse af el-anlæg. Autoriseret elektriker — få gratis tilbud i dag!',
   alternates: {
     canonical: 'https://odense-elektriker.dk/el-installation',
@@ -10,11 +10,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'El-installation Odense | Autoriseret El-installatør',
+    title: 'El-installation Odense | Autoriseret Elektriker',
     description: 'Professionel el-installation i Odense. Nye installationer, renovering og udvidelse af el-anlæg. Gratis tilbud!',
   },
   openGraph: {
-    title: 'El-installation Odense | Autoriseret El-installatør',
+    title: 'El-installation Odense | Autoriseret Elektriker',
     description: 'Professionel el-installation i Odense. Nye installationer, renovering og udvidelse af el-anlæg. Gratis tilbud!',
     url: 'https://odense-elektriker.dk/el-installation',
     type: 'website',
