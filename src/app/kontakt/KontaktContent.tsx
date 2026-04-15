@@ -53,10 +53,19 @@ export default function KontaktContent() {
   })
   const [submitted, setSubmitted] = useState(false)
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    setSubmitted(true)
-  }
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    try {
+      await fetch("https://haandvaerker-sider-iota.vercel.app/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...formData, source: "odense-elektriker.dk" }),
+      });
+    } catch {
+      // Dashboard unreachable — still show success to user
+    }
+    setSubmitted(true);
+  };
 
   return (
     <>
